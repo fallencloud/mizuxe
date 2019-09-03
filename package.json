@@ -1,0 +1,18 @@
+{
+  "name": "mizuxe",
+  "version": "1.0.0",
+  "description": "This is a landing page for a fictional company called Mizuxe.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o docs/css --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
