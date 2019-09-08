@@ -1,0 +1,67 @@
+/*******************
+Reset
+*******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*******************
+General Styles
+*******************/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.15rem; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+/*******************
+Colors
+*******************/
+/*******************
+Utilities
+*******************/
+.p-1 {
+  padding: 1rem; }
+
+/*******************
+Navigation
+*******************/
+#nav .container {
+  display: flex;
+  justify-content: space-between; }
+  #nav .container .logo h3 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: normal;
+    align-items: center; }
+  #nav .container .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem; }
+  #nav .container ul {
+    display: flex; }
+    #nav .container ul li a {
+      padding: 1rem;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 1.5rem; }
+    #nav .container ul li a:hover {
+      color: rgba(0, 0, 0, 0.7); }
+
+/*******************
+Header
+*******************/
+#header {
+  background: #3292a6 url("../img/mountains.jpg") no-repeat center center/cover;
+  color: #fff;
+  display: flex; }
